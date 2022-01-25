@@ -43,27 +43,9 @@
 </div>
 
 <div class="table">
-  <div class="table-header">
-    Formular
+  <div style="font-size:12px;">
+    {{ submission }}
   </div>
-
-  <table>
-    <thead>
-    <tr>
-      <th>Felt</th>
-      <th>Besvarelse</th>
-    </tr>
-    </thead>
-    <tbody>
-    {% for element in elements %}
-      <tr class="table-row">
-        <td>{{ element.name }}</td>
-        <td>{{ element.value }}</td>
-      </tr>
-    {% endfor %}
-    </tbody>
-  </table>
-
 </div>
 
 </body>
